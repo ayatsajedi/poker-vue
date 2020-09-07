@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import Router from './router'
 import 'bulma/css/bulma.css';
 
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+  router: Router,
   render: h => h(App)
 }).$mount('#app')

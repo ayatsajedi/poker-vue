@@ -1,5 +1,5 @@
 <template>
-<div class="home">
+<div class="home" id="home">
   <section class="hero is-dark">
     <div class="hero-body">
       <div class="container">
@@ -24,6 +24,9 @@ export default {
   name: 'home',
   components: {
       Hand
+  },
+  data() {
+    return {}
   }
 }
 </script>
